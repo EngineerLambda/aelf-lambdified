@@ -1,4 +1,5 @@
 ## Aelf Lambdified
+Link to Web App: https://aelf-lambdified.streamlit.app.<br>
 This is a platform that has several tools incorporated together to solve common blockchain problems with focus on AELF and GCP integration.<br>
 The app is divided into sections for easy access to each of the developed tools, the developed tools are:
 * RAG Pipeline for AELF documentation
