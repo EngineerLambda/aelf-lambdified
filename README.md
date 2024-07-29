@@ -46,3 +46,7 @@ Incorporating DB-based memory with authentication to make sure each user is able
 ###### Sample
 ![Asking for code to be generated](./sample_images/Screenshot%20from%202024-07-29%2017-10-09.png)
 ![Asking to rewrite to confirm memory](./sample_images/Screenshot%20from%202024-07-29%2017-10-24.png)
+
+### GCP Integration
+* Google vertex-ai large language model `Gemini-1-Pro` for all AI generation except chart explanation
+* Google vertex-ai large language model `Gemini-1.5-Flash` for the chart explanation
