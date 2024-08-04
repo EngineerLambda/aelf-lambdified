@@ -16,6 +16,8 @@ DB_NAME = secrets["DB_NAME"]
 COLLECTION_NAME = secrets["COLLECTION_NAME"]
 INDEX_NAME = secrets["INDEX_NAME"]
 
+st.set_page_config(page_title="Documentation AI", page_icon="📝")
+
 # helper functions
 def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)

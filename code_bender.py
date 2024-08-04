@@ -28,7 +28,8 @@ def stream_data(response):
         yield word + " "
         time.sleep(0.02)
         
-        
+st.set_page_config(page_title="Code with AI", page_icon="🖥️")
+
 # chat interface for consistent queries
 if "code_messages" not in st.session_state:
     welcome_message = "Hello there, I am your blockchain coding companion, send me your query and I will be happy\

@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.set_page_config(page_title="Welcome Page", page_icon="👋")
 part_1 = """
 ## Aelf Lambdified
 This is a platform that has several tools incorporated together to solve common blockchain problems with focus on AELF and GCP integration.

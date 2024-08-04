@@ -2,6 +2,7 @@ from PIL import Image
 import streamlit as st
 import google.generativeai as genai
 
+st.set_page_config(page_title="Chart Explanation", page_icon="📈")
 
 st.header("Chart Explanation from AI")
 template = "This is an image of a chart of a blockchain data, kindly explain it to me, MUST BE VERY DETAILED, if it isn't an image of a chart tell me you can't help me with it"
